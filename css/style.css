@@ -864,11 +864,11 @@ footer {
     font-size: 120%;
     font-weight: 600;
     font-family: "Montserrat";
-    font-style: normal;
     line-height: 29px;
     letter-spacing: 0.02em;
-
+    font-size: 24px;
     color: var(--main_white);
+    padding-bottom: 18px;
 }
 
 .Contact {
@@ -883,21 +883,72 @@ footer {
     line-height: 20px;
     color: rgba(255, 255, 255, 0.8);
 }
-
-.Contact li {
-    gap: 16px;
+.Contact-address {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
 }
 
 .footer_social {
     max-width: 205px;
 }
+.footer_social-title {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 18px;
+}
 
 .footer_icons {
-    gap: 22px;
+    gap: 56px;
+    margin-bottom: 64px;
+}
+
+.footer-lang {
+    width: 100%;
+    padding: 15px 18px;
+    border: 0.4px solid rgba(255, 251, 251, 0.65);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-lang svg {
+    /* margin-right: 8px; */
+}
+.footer-lang select {
+    width: 87%;
+    background: transparent;
+    border: none;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(255, 251, 251, 0.65);
 }
 
 .footer_end {
+    border-top: 1px solid rgba(255, 251, 251, 0.35);
     padding-bottom: 64px;
     margin-top: 47px;
     justify-content: center;
+}
+.footer_end-inner {
+    margin-top: 32px;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #fffbfb;
+    opacity: 0.65;
 }
