@@ -433,7 +433,7 @@ header {
     color: var(--cristal_white);
 }
 
-.price-info button {
+.price-info a {
     padding: 11px 24px;
     width: 138px;
     height: 42px;
