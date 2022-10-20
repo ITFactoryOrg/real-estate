@@ -745,6 +745,7 @@ header {
 .connect-bg {
     background-image: url(../images/connect-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .connect {
     display: flex;
