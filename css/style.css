@@ -744,6 +744,7 @@ header {
 /* connect section  */
 .connect-bg {
     background-image: url(../images/connect-bg.png);
+    background-repeat: no-repeat;
 }
 .connect {
     display: flex;
