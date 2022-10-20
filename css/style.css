@@ -742,10 +742,12 @@ header {
 /* other projects section  */
 
 /* connect section  */
+
 .connect-bg {
     background-image: url(../images/connect-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .connect {
     display: flex;
