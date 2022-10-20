@@ -736,7 +736,7 @@ header {
     background-color: #ff9505 !important;
 }
 .swiper-pagination {
-    bottom: -2px;
+    bottom: -2px !important;
 }
 
 /* other projects section  */
