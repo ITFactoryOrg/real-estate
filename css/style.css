@@ -718,7 +718,6 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    height: 500px !important;
 }
 .swiper-slide {
     width: 70% !important;
