@@ -12,6 +12,12 @@
   .container {
     max-width: 90%;
   }
+  .mapouter {
+    width: 100% !important;
+  }
+  .gmap_canvas {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -75,5 +81,8 @@
   .room-info {
     flex-direction: column;
     gap: 10px;
+  }
+  .gmap_canvas {
+    height: 50vh !important;
   }
 }
