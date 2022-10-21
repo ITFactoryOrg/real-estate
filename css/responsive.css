@@ -89,4 +89,20 @@
   .gmap_canvas {
     height: 50vh !important;
   }
+  .swiper-slide {
+    width: 100% !important;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 2rem !important;
+  }
+  .swiper-button-next:after {
+    padding-right: 2rem !important;
+  }
+  .swiper-button-prev:after {
+    padding-left: 2rem !important;
+  }
+  .swiper-pagination {
+    bottom: -4px !important;
+  }
 }
