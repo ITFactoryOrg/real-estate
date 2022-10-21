@@ -35,6 +35,17 @@
     flex-direction: column;
     margin: auto 0 0 20%;
   }
+  .Section_header {
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .Section_header button {
+    width: 45%;
+    align-self: start;
+  }
+  .Filters-Btn {
+    align-self: flex-end;
+  }
 }
 
 @media (max-width: 576px) {
@@ -43,5 +54,13 @@
   }
   .footer_all {
     margin: auto;
+  }
+  .Section_header {
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .Section_header button {
+    width: 100%;
+    align-self: start;
   }
 }
