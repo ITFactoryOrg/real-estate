@@ -73,6 +73,16 @@
   .connect-form {
     padding-left: 0;
   }
+  .gallery {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .gallery-inner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-items {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 576px) {
@@ -122,6 +132,13 @@
   }
   .connect-info-desc {
     font-size: 1.5rem;
+  }
+  .info-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .features-item {
+    width: 40vw;
   }
 }
 
