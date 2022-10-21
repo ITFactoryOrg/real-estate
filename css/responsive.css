@@ -31,10 +31,17 @@
   .responsive_btn-svg {
     display: block;
   }
+  .footer_all {
+    flex-direction: column;
+    margin: auto 0 0 20%;
+  }
 }
 
 @media (max-width: 576px) {
   .Header-title {
     font-size: 120%;
+  }
+  .footer_all {
+    margin: auto;
   }
 }
