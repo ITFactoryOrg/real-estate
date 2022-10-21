@@ -119,6 +119,12 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+.responsive_btn-svg {
+    display: none;
+    color: #f2f2f2;
+    font-size: 36px;
+    cursor: pointer;
+}
 
 .header_nav ul {
     display: flex;
@@ -257,7 +263,6 @@ header {
     font-weight: 600;
     font-size: 70%;
     text-align: center;
-
     border: none;
 }
 
@@ -271,9 +276,7 @@ header {
     font-weight: 700;
     color: var(--white);
     font-size: 320%;
-
     line-height: 95px;
-
     color: var(--cristal_white);
 }
 
@@ -360,11 +363,11 @@ header {
     border-left: 2px solid #333333;
 }
 
-.card_content>p:first-of-type {
+.card_content > p:first-of-type {
     margin-top: 0;
 }
 
-.card_content>p:last-of-type {
+.card_content > p:last-of-type {
     margin-bottom: 0;
 }
 
@@ -730,7 +733,6 @@ header {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-
 }
 
 .swiper-slide {
@@ -998,9 +1000,6 @@ footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
 }
-
-
-
 
 /* detail page 2th PAGE!!  */
 .gallery-inner {
