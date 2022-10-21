@@ -18,6 +18,12 @@
   .Header-title {
     font-size: 220%;
   }
+  .cards {
+    grid-template-columns: repeat(1, minmax(auto, 1fr));
+  }
+  .card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -62,5 +68,12 @@
   .Section_header button {
     width: 100%;
     align-self: start;
+  }
+  .card {
+    height: 40vh;
+  }
+  .room-info {
+    flex-direction: column;
+    gap: 10px;
   }
 }
