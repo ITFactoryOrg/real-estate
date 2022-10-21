@@ -18,6 +18,10 @@
   .gmap_canvas {
     width: 100% !important;
   }
+  .connect-info-title {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 992px) {
@@ -62,6 +66,13 @@
   .Filters-Btn {
     align-self: flex-end;
   }
+  .connect {
+    flex-direction: column;
+    padding: 10% 0;
+  }
+  .connect-form {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -104,5 +115,21 @@
   }
   .swiper-pagination {
     bottom: -4px !important;
+  }
+  .connect-info-title {
+    font-size: 2.5rem;
+    line-height: 48px;
+  }
+  .connect-info-desc {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .connect-info-title {
+    font-size: 1.5rem;
+  }
+  .connect-info-desc {
+    font-size: 1rem;
   }
 }
